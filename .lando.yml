@@ -3,3 +3,9 @@ recipe: drupal10
 config:
   webroot: ./web
   php: 8.1
+services:
+  node:
+    type: node:19
+tooling:
+  npm:
+    service: node

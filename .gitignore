@@ -60,3 +60,5 @@
 /drush
 /drupal.phar
 /drupal
+
+/web/themes/custom/drupal_tailwind/node_modules
