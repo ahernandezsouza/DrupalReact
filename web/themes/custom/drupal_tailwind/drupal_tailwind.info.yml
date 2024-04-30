@@ -1,0 +1,22 @@
+name: drupal_tailwind
+type: theme
+'base theme': stable9
+starterkit: true
+version: VERSION
+libraries:
+  - drupal_tailwind/base
+  - drupal_tailwind/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - drupal_tailwind/user
+  core/drupal.dropbutton:
+    - drupal_tailwind/dropbutton
+  core/drupal.dialog:
+    - drupal_tailwind/dialog
+  file/drupal.file:
+    - drupal_tailwind/file
+  core/drupal.progress:
+    - drupal_tailwind/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.0.12-dev#unknown-commit'
