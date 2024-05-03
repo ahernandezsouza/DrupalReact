@@ -6,6 +6,7 @@ version: VERSION
 libraries:
   - drupal_tailwind/base
   - drupal_tailwind/messages
+  - drupal_tailwind/react_app
   - core/normalize
 libraries-extend:
   user/drupal.user:
